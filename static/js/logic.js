@@ -67,7 +67,7 @@ d3.json(link).then(function(data) {
     let labels = ["<10", "10-30", "30-50", "50-70", "70-90", "90<"];
 
     // Add legend title
-    div.innerHTML = "<h4>Earthquake<br> Depth</h4>";
+    div.innerHTML = "<h4>Earthquake<br> Depth (Km)</h4>";
     
     // Loop through depth ranges and create color boxes with labels
     for (let i = 0; i < colors.length; i++) {
